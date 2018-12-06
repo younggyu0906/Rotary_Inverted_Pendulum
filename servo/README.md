@@ -1,0 +1,37 @@
+# RASPI --> Servo2
+- 0     Mode (0x01)
+- 1     Padding byte (0x00)
+- 2     Write Mask
+- 3     Red LED MSB
+- 4     Red LED LSB
+- 5     Green LED MSB
+- 6     Green LED LSB
+- 7     Blue LED MSB
+- 8     Blue LED LSB
+- 9     Set Encoder 0 (23-16)
+- 10    Set Encoder 0 (15-8)
+- 11    Set Encoder 0 (7-0)
+- 12    Set Encoder 1 (23-16)
+- 13    Set Encoder 1 (15-8)
+- 14    Set Encoder 1 (7-0)
+- 15    Motor Command (15-8)
+- 16    Motor Command (7-0)
+
+# Servo2 --> RASPI
+- 0     Device ID MSB
+- 1     Device ID LSB
+- 2     Encoder 0 (23-16)
+- 3     Encoder 0 (15-8)
+- 4     Encoder 0 (7-0)
+- 5     Encoder 1 (23-16)
+- 6     Encoder 1 (15-8)
+- 7     Encoder 1 (7-0)
+- 8     Tachometer 0 (23-16)
+- 9     Tachometer 0 (15-8)
+- 10    Tachometer 0 (7-0)
+- 11    Status
+- 12    Current Sense (15-8)
+- 13    Current Sense (7-0)
+- 14    Null
+- 15    Null
+- 16    Null
